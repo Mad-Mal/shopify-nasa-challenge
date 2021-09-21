@@ -1,11 +1,16 @@
-import logo from './logo.svg';
+import React from 'react';
+import DataCards from './components/DataCards';
+import Header from './components/Header';
 import './App.css';
 
 function App() {
+
   return (
-    <div className="App">
-      <Header />
-      
+    <div className='mainWrap'>
+      <div className="innerWrap">
+        <Header />
+        <DataCards />
+      </div>
     </div>
   );
 }

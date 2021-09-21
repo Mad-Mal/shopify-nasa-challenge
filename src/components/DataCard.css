@@ -1,0 +1,79 @@
+.outerWrap {
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.innerDataWrap {
+    width: 80%;
+    display: flex;
+    flex-flow: column nowrap;
+    align-self: center;
+}
+
+.imgs {
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    width: 100%;
+    border: 8px solid lightgrey;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.btnWrap {
+    display: flex; 
+    align-self: center;
+    width: 100%;
+    background-color: lightgrey; 
+    border: 8px solid lightgrey;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    margin-bottom: 2rem;
+}
+
+.likeBtn {
+    
+}
+
+.likeBtn:hover {
+    cursor: pointer;
+}
+
+.outerParaContainer {
+    display: flex;
+    flex-flow: column nowrap;
+    align-self: center;
+    justify-self: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.paraContainer {
+    display: flex;
+    flex-flow: row nowrap;
+    align-self: center;
+    justify-self: center;
+    justify-content: space-evenly;
+    width: 100%;
+    background-color: lightgrey;
+    border: 8px solid lightgrey;  
+}
+
+.firstPWrap {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+}
+
+.secondPWrap {
+    display: flex;
+    flex-flow: column nowrap;
+    align-content: flex-start;
+}
+
+.pTags {
+    display: flex;
+    align-self: flex-start;
+    justify-self: center;
+}
