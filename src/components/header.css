@@ -1,0 +1,8 @@
+.headWrap {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items:flex-start;
+    width: 95%;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 6rem;
+}
